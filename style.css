@@ -1,0 +1,47 @@
+#window{
+    
+    text-align: right;
+    
+}
+div>legend{background-color: greenyellow;}
+tr{
+    display: flex;
+    justify-content:space-between;
+}
+/*td nin içindeki inputta type si button olan objeleri etkiler*/
+td>input[type="button"]{
+    background-color: rgb(150, 150, 150);
+    width: 80px;
+    
+}
+#window{
+    display: flex;
+    height:100px;
+    width: 400px;
+    font-size: xx-large;
+}
+td>input[type="button"]:hover{
+    background-color: greenyellow;
+    
+}
+td>input[type="button"]{
+    width: 100px;
+    height: 100px;
+    font-size:xx-large;
+}
+td>input[type="button"]:active
+{
+    background-color:red;
+}
+table{
+    width: max-content;
+    border: 2px solid;
+    height:max-content;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
